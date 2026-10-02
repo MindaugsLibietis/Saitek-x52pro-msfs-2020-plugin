@@ -1,6 +1,6 @@
 # ✈️ MSFS 2020 Saitek X52 Pro Bridge Plugin
 
-A modular, multi-threaded hardware-to-simulator bridge for Microsoft Flight Simulator 2020. This tool establishes an active data link using the MSFS SimConnect API and maps live flight telemetries directly onto the physical MFD screens and LED registers of the Saitek/Logitech X52 Pro HOTAS.
+A modular, multi-threaded hardware-to-simulator bridge for Microsoft Flight Simulator 2020. This tool establishes an active data link using the MSFS SimConnect API and maps live flight telemetry directly onto the physical MFD screens and LED registers of the Saitek/Logitech X52 Pro HOTAS.
 
 ---
 
@@ -31,3 +31,12 @@ You do **not** need an IDE or a Python runtime environment to run the production
 ## 🏗️ Architecture & Data Workflow
 
 The application acts as a middleman, translating telemetry frames from the game environment directly into driver commands.
+
+---
+
+## Demonstration and Reddit article
+
+I posted a small insights video demonstration on Reddit r/MicrosoftFlightSim with the title "x52 pro msfs". Users with the same hardware and MSFS 2020 simulator are invited to collaborate on this project. Even if you have no experience or free time to develop, but have flight knowledge and experience, any ideas for telemetry to display, ways of interacting with this interface, or button leds actions are appreciated on this topic.
+Link to Reddit article: [x52 pro msfs](https://www.reddit.com/r/MicrosoftFlightSim/s/zWq0cKZdoC)
+
+https://github.com/user-attachments/assets/06a9b3c8-e5e8-44ef-b70b-066c70e944f0
